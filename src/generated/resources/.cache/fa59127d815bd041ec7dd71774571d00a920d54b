@@ -1,0 +1,4 @@
+// 1.20.2	2024-06-05T04:01:50.3741517	Tags for minecraft:block mod id wildandhunt
+a5d25b79237f8c9f370022bbcaa16142e41d3177 data/forge/tags/blocks/needs_wood_tool.json
+1e0ec40ae98c3e5df85eccd7af75f9ec728d1aeb data/minecraft/tags/blocks/mineable/pickaxe.json
+79c3921931cb60c5a9778726a4bd9ccbba535b06 data/minecraft/tags/blocks/walls.json

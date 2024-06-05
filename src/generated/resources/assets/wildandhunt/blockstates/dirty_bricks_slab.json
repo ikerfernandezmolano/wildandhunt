@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wildandhunt:block/dirty_bricks_slab"
+    },
+    "type=double": {
+      "model": "wildandhunt:block/dirty_bricks_block"
+    },
+    "type=top": {
+      "model": "wildandhunt:block/dirty_bricks_slab_top"
+    }
+  }
+}

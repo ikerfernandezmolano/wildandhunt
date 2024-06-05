@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wildandhunt:block/dirty_bricks_block",
+    "side": "wildandhunt:block/dirty_bricks_block",
+    "top": "wildandhunt:block/dirty_bricks_block"
+  }
+}
