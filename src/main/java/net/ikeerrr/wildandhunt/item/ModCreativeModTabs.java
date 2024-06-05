@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DIRTY_BRICKS_STAIRS.get());
                         pOutput.accept(ModBlocks.DIRTY_BRICKS_SLAB.get());
                         pOutput.accept(ModBlocks.DIRTY_BRICKS_WALL.get());
+                        pOutput.accept(ModBlocks.DIRTY_ROCK.get());
                     })
                     .build());
 

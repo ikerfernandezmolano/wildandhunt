@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.WallBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -23,6 +24,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.DIRTY_BRICKS_STAIRS.get()), blockTexture(ModBlocks.DIRTY_BRICKS_BLOCK.get()));
         slabBlock(((SlabBlock) ModBlocks.DIRTY_BRICKS_SLAB.get()), blockTexture(ModBlocks.DIRTY_BRICKS_BLOCK.get()),blockTexture(ModBlocks.DIRTY_BRICKS_BLOCK.get()));
         wallBlock(((WallBlock) ModBlocks.DIRTY_BRICKS_WALL.get()), blockTexture(ModBlocks.DIRTY_BRICKS_BLOCK.get()));
+
+        simpleBlock(ModBlocks.DIRTY_ROCK.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/dirty_rock")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){

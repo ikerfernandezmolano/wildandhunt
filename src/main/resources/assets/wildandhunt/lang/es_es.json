@@ -6,5 +6,6 @@
   "block.wildandhunt.dirty_bricks_wall": "Muro De Ladrillos Sucios",
   "item.wildandhunt.dirty_stone": "Piedra Sucia",
   "item.wildandhunt.dirty_brick": "Ladrillo Sucia",
-  "creativetab.wildandhunt": "Caza Salvaje"
+  "creativetab.wildandhunt": "Caza Salvaje",
+  "block.wildandhunt.dirty_rock": "Roca Sucia"
 }

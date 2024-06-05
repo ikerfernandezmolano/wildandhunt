@@ -21,14 +21,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRTY_BRICKS_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRTY_BRICKS_BLOCK.get(),4)
                 .pattern("###")
                 .pattern("###")
                 .pattern("###")
                 .define('#', ModItems.DIRTY_BRICK.get())
                 .unlockedBy(getHasName(ModItems.DIRTY_BRICK.get()),has(ModItems.DIRTY_BRICK.get()))
                 .save(pRecipeOutput);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIRTY_BRICK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIRTY_BRICK.get(),2)
                 .pattern("   ")
                 .pattern("## ")
                 .pattern("## ")

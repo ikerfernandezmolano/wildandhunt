@@ -24,6 +24,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DIRTY_BRICK);
         simpleItem(ModItems.DIRTY_STONE);
 
+        evenSimplerBlockItem(ModBlocks.DIRTY_ROCK);
+
         evenSimplerBlockItem(ModBlocks.DIRTY_BRICKS_STAIRS);
         evenSimplerBlockItem(ModBlocks.DIRTY_BRICKS_SLAB);
         wallItem(ModBlocks.DIRTY_BRICKS_WALL,ModBlocks.DIRTY_BRICKS_BLOCK);

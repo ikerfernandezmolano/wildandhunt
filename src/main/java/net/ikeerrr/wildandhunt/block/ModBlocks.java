@@ -1,5 +1,6 @@
 package net.ikeerrr.wildandhunt.block;
 
+import net.ikeerrr.wildandhunt.block.custom.DirtyRock;
 import net.ikeerrr.wildandhunt.wildandhunt;
 import net.ikeerrr.wildandhunt.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -14,6 +15,7 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlocks {
+
     public static final DeferredRegister<Block> BLOCKS=
             DeferredRegister.create(ForgeRegistries.BLOCKS, wildandhunt.MOD_ID);
 
@@ -29,6 +31,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DIRTY_BRICKS_WALL=registerBlock("dirty_bricks_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE_WALL)));
+
+    public static final RegistryObject<Block> DIRTY_ROCK=registerBlock("dirty_rock",
+            ()-> new DirtyRock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn=BLOCKS.register(name,block);

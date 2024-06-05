@@ -1,4 +1,4 @@
-// 1.20.2	2024-06-05T04:01:50.3741517	Tags for minecraft:block mod id wildandhunt
-a5d25b79237f8c9f370022bbcaa16142e41d3177 data/forge/tags/blocks/needs_wood_tool.json
-1e0ec40ae98c3e5df85eccd7af75f9ec728d1aeb data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.20.2	2024-06-05T15:06:45.9102247	Tags for minecraft:block mod id wildandhunt
+8505873a64ed6068fc2ec8722a738b6e7b36f51d data/forge/tags/blocks/needs_wood_tool.json
+a1105082474b6db97114d843543f45e1b32f9282 data/minecraft/tags/blocks/mineable/pickaxe.json
 79c3921931cb60c5a9778726a4bd9ccbba535b06 data/minecraft/tags/blocks/walls.json

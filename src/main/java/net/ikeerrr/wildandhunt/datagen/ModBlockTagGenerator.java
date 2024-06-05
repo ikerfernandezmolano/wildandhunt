@@ -24,13 +24,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.DIRTY_BRICKS_BLOCK.get(),
                         ModBlocks.DIRTY_BRICKS_SLAB.get(),
                         ModBlocks.DIRTY_BRICKS_STAIRS.get(),
-                        ModBlocks.DIRTY_BRICKS_WALL.get());
+                        ModBlocks.DIRTY_BRICKS_WALL.get(),
+                        ModBlocks.DIRTY_ROCK.get());
 
         this.tag(Tags.Blocks.NEEDS_WOOD_TOOL)
                 .add(ModBlocks.DIRTY_BRICKS_BLOCK.get(),
                         ModBlocks.DIRTY_BRICKS_WALL.get(),
                         ModBlocks.DIRTY_BRICKS_STAIRS.get(),
-                        ModBlocks.DIRTY_BRICKS_SLAB.get());
+                        ModBlocks.DIRTY_BRICKS_SLAB.get(),
+                        ModBlocks.DIRTY_ROCK.get());
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.DIRTY_BRICKS_WALL.get());
